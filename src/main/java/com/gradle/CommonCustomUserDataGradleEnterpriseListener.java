@@ -19,6 +19,10 @@ public final class CommonCustomUserDataGradleEnterpriseListener implements Gradl
 
     private final Logger logger = LoggerFactory.getLogger(CommonCustomUserDataGradleEnterpriseListener.class);
 
+    public String woop() {
+        return "woop";
+    }
+
     @Override
     public void configure(GradleEnterpriseApi api, MavenSession session) throws Exception {
         logger.debug("Executing extension: " + getClass().getSimpleName());
