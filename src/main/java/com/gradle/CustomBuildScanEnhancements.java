@@ -48,7 +48,7 @@ import static com.gradle.Utils.urlEncode;
 final class CustomBuildScanEnhancements {
 
     public String wowee() {
-        return "WOWEE";
+        return "WWOWEEEEEEE";
     }
 
     private static final String SYSTEM_PROP_IDEA_VENDOR_NAME = "idea.vendor.name";
