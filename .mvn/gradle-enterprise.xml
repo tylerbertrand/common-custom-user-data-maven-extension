@@ -20,13 +20,13 @@
   </buildScan>
   <buildCache>
     <local>
-      <enabled>true</enabled>
+      <enabled>false</enabled>
     </local>
     <remote>
       <server>
         <url>https://ge.solutions-team.gradle.com/cache/tb-exp4-take1</url>
       </server>
-      <storeEnabled>#{isTrue(env['GITHUB_ACTIONS']) and isTrue(env['GRADLE_ENTERPRISE_ACCESS_KEY'])}</storeEnabled>
+      <storeEnabled>#{isTrue(env['CI']) and isTrue(env['GRADLE_ENTERPRISE_ACCESS_KEY'])}</storeEnabled>
     </remote>
   </buildCache>
 </gradleEnterprise>
