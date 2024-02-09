@@ -47,6 +47,10 @@ import static com.gradle.Utils.urlEncode;
  */
 final class CustomBuildScanEnhancements {
 
+    public String wowee() {
+        return "WOWEE";
+    }
+
     private static final String SYSTEM_PROP_IDEA_VENDOR_NAME = "idea.vendor.name";
     private static final String SYSTEM_PROP_IDEA_VERSION = "idea.version";
     private static final String SYSTEM_PROP_ECLIPSE_BUILD_ID = "eclipse.buildId";
